@@ -2,3 +2,10 @@ body {
     font-family: 'Open Sans Condensed';
     padding: 20px 60px;
   }
+
+  /* By adding the text decoration to none, it will keep the links from 
+  becoming underlined or text color changing to purlple. */
+a {
+  text-decoration: none;
+  color: black;
+}
