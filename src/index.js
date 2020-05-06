@@ -8,8 +8,7 @@ import store from './redux/store';
 
 import './index.css';
 
-
-
+//Provider is the parent of everything in the application.
 
 ReactDOM.render(
     <Provider store={store}>
