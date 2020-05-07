@@ -65,4 +65,3 @@ const mapDispatchToProps = dispatch => ({
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
-//testing github because I had to get a new ssh key because my old one won't work.
