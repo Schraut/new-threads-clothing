@@ -1,8 +1,7 @@
 import React from 'react';
-
-//Higher order component. It's a function that's takes a component and modifies it. 
-//Returns new modified component.
-import { withRouter } from 'react-router-dom';
+// Higher order component. It's a function that takes a component and modifies it. 
+// Returns new modified component.
+import { withRouter } from 'react-router-dom'; // higher order component. it's basically a function that takes a component as an argument and modifies it
 
 import './menu-item.styles.scss';
 
