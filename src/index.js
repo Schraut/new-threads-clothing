@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import App from './App';
 import { BrowserRouter } from 'react-router-dom'; // it gets wrapped around app and gives it all the functionality of routing.
-import { Provider } from 'react-redux';
+import { Provider } from 'react-redux'; // component that wraps around app to provide access to the store and is the parent of everything inside app
 import { PersistGate } from 'redux-persist/integration/react';
 
 import { store, persistor } from './redux/store';
