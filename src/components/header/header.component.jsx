@@ -1,5 +1,5 @@
 import React from 'react';
-import { connect } from 'react-redux';
+import { connect } from 'react-redux'; // connect is a higher order component
 import { auth } from '../../firebase/firebase.utils';
 import { createStructuredSelector } from 'reselect'; 
 

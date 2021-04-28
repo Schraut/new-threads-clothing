@@ -10,8 +10,8 @@ import { store, persistor } from './redux/store';
 
 import './index.css';
 
-//Provider is the parent of everything in the application.
-
+// Provider is the parent of everything in the application.
+// by adding store in the Provider, it gives the store full access to the app
 ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter>
